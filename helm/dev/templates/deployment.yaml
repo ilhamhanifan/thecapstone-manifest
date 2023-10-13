@@ -19,5 +19,5 @@ spec:
       - name: app
         image: {{ .Values.IMAGE_NAME }}
         ports: 
-        - containerPort: 8000
+        - containerPort: 80
           
