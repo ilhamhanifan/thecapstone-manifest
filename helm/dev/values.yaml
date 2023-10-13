@@ -1,5 +1,5 @@
 NAMESPACE: "dev"
-IMAGE_NAME: "dev"
+IMAGE_NAME: "asia-southeast2-docker.pkg.dev/thecapstone-project/python-app/backend_image:da9f4d31863b3de188b4dc7a5e10fd0a6e2487c4"
 spec:
   template:
     spec:
