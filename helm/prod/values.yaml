@@ -1,2 +1,2 @@
-env:
-  IMAGE_NAME: "prod"
+NAMESPACE: "prod"
+IMAGE_NAME: "prod"

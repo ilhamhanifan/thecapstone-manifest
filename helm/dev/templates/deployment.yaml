@@ -4,6 +4,7 @@ metadata:
   name: app-deploy
   labels:
     app: app
+  namespace: {{ .Values.NAMESPACE }}
 spec:
   replicas: 3
   selector:
@@ -16,7 +17,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: {{ .Values.env.IMAGE_NAME }}
+        image: {{ .Values.IMAGE_NAME }}
         ports: 
         - containerPort: 8000
           

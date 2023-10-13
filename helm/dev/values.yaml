@@ -1,2 +1,2 @@
-env:
-  IMAGE_NAME: "dev"
+NAMESPACE: "dev"
+IMAGE_NAME: "dev"
