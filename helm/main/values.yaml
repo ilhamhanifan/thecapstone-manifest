@@ -1,3 +1,3 @@
 NAMESPACE: "prod"
-IMAGE_NAME: "asia-southeast2-docker.pkg.dev/thecapstone-project/python-app-main/backend_image:ae361d92f797535ca10d2b9a303c03081bbf669b"
+IMAGE_NAME: "asia-southeast2-docker.pkg.dev/thecapstone-project/python-app-main/backend_image:f7b73b0fe78e3ec233e15ae400dafa487dbf8eda"
 REPLICAS: 3
