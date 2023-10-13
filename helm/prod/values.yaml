@@ -1,2 +1,3 @@
 NAMESPACE: "prod"
-IMAGE_NAME: "prod"
+IMAGE_NAME: ""
+REPLICAS: 3
