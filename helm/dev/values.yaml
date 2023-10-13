@@ -1,3 +1,3 @@
 NAMESPACE: "dev"
-IMAGE_NAME: "asia-southeast2-docker.pkg.dev/thecapstone-project/python-app/backend_image:44d9b80731b8ac962302ae519e30086951e60ae9"
+IMAGE_NAME: "asia-southeast2-docker.pkg.dev/thecapstone-project/python-app-dev/backend_image:4395ad4376a2b835dff1409c6b0a5df01a2208be"
 REPLICAS: 1
