@@ -2,7 +2,7 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: thecapstone-manifest-main
-  namespace: argocd
+  namespace: main
   finalizers:
   - resources-finalizer.argocd.argoproj.io
 spec:
