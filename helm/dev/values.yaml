@@ -1,2 +1,7 @@
 NAMESPACE: "dev"
 IMAGE_NAME: "dev"
+spec:
+  template:
+    spec:
+      containers:
+        - image: asia-southeast2-docker.pkg.dev/thecapstone-project/python-app/backend_image:48d2cd6a8871399cc5932e9a2a195e0531b6aeef
