@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: thecapstone-manifest-prod
+  name: thecapstone-manifest-main
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
@@ -9,14 +9,14 @@ spec:
   project: default
   source:
     repoURL: 'https://github.com/ilhamhanifan/thecapstone-manifest.git'
-    path: helm/prod
+    path: helm/main
     targetRevision: HEAD
     helm:
       valueFiles:
         - values.yaml
   destination:
     server: 'https://kubernetes.default.svc'
-    namespace: prod
+    namespace: main
   syncPolicy:
     automated:
       prune: true
